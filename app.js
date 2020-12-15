@@ -39,8 +39,10 @@ creationStory.addEventListener('click', function story(){
             textGenerator.innerHTML += "Il fait chaud avec ses " + temperatures[randomTemperatures] + ". ";
         }
 
+    // Suite:
     textGenerator.innerHTML += "Ils vont donc ";
 
+        // Lieux:
         if ( randomLieux === 1 || randomLieux === 2 ) {
             textGenerator.innerHTML += "à la " + lieux[randomLieux] + " pour ";
         }
@@ -48,6 +50,7 @@ creationStory.addEventListener('click', function story(){
             textGenerator.innerHTML += "en " + lieux[randomLieux] + " pour ";
         }
 
+        // Words:
         if (randomVerbes === 2 ) {
             textGenerator.innerHTML += "se " + verbes[randomVerbes] + ". " + "<br>" ;
         }

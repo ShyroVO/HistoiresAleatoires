@@ -12,6 +12,19 @@ body {
     padding: 2rem;
 }
 
+hr {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+h1 , hr {
+    color: white ;
+}
+
+h1 {
+    text-shadow: forestgreen 0 0 1.5rem;
+}
+
 #contenues {
     display: flex;
     flex-direction: column;
@@ -22,27 +35,33 @@ body {
     margin:1rem 0 ;
     width: 20rem;
     padding: 1rem;
+}
+
+#utilisateurName, #creation {
+    border-color: forestgreen;
+    background: white;
     text-align: center;
-    border-color: cadetblue;
 }
 
 #creation {
     width: 10rem;
-    padding: 0.5rem;
-    border-color: cadetblue;
-    background: white;
 }
 
 #creation:hover {
     background: lightblue;
 }
 
+#creation , #text {
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
 #text {
     margin: 1rem;
     width: 30rem;
     height: auto;
-    border: solid cadetblue 1px;
-    padding: 1rem;
+    border: solid forestgreen 1px;
     text-align: left;
+    font-size: 0.9rem;
+    box-shadow: forestgreen 0 0 1rem;
 }
-
