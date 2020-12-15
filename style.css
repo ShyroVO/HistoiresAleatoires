@@ -6,5 +6,43 @@
 
 body {
     font-size: 62.5%;
+    background: lightblue;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+#contenues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#utilisateurName {
+    margin:1rem 0 ;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    border-color: cadetblue;
+}
+
+#creation {
+    width: 10rem;
+    padding: 0.5rem;
+    border-color: cadetblue;
+    background: white;
+}
+
+#creation:hover {
+    background: lightblue;
+}
+
+#text {
+    margin: 1rem;
+    width: 30rem;
+    height: auto;
+    border: solid cadetblue 1px;
+    padding: 1rem;
+    text-align: left;
 }
 
